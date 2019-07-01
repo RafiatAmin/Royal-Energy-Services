@@ -1,0 +1,46 @@
+ html, body{
+    height: 100%;
+}
+.description.style {
+    max-width: 600px;
+    text-align: left;
+    margin: none;
+    font-size: 2em;
+    padding-left: 15%;
+}
+   div.hero-image{
+    background-image: url(../img/REs/green-energy\ hero\ img.jpeg);
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+ .container{
+    margin left: 0.15%;
+    margin right: 0.15%;
+} 
+.column {
+    float: left;
+    width: 33.33%;
+}
+ .column img {
+    width: 95%;
+    transition: all 1s;
+}
+.column img :hover {
+    transform: scale(1.1);
+}
+.row {
+    text-align: center;
+    padding-bottom: 30px;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+/* img{
+    float: left;
+    transition: 1s;
+} */
